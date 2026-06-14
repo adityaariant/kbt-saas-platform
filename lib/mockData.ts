@@ -1,5 +1,5 @@
 // ============================================================
-// DataNiaga — Comprehensive Mock Data Layer
+// Ecometrics — Comprehensive Mock Data Layer
 // Deterministic generation using seeded pseudo-random
 // ============================================================
 import type {
@@ -167,7 +167,7 @@ export const notifications: AppNotification[] = [
 // STORES
 // ============================================================
 export const stores: Store[] = [
-  { id: 'STORE-001', name: 'DataNiaga Official', platform: 'tokopedia', category: 'Fashion & Elektronik', status: 'active' },
+  { id: 'STORE-001', name: 'Ecometrics Official', platform: 'tokopedia', category: 'Fashion & Elektronik', status: 'active' },
 ];
 
 // ============================================================

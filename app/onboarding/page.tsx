@@ -113,7 +113,7 @@ export default function OnboardingPage() {
                 <Settings className="w-8 h-8" />
               </div>
               <h2 className="text-3xl font-bold font-display text-text-primary">Tentukan Tujuan Anda</h2>
-              <p className="text-text-secondary">Apa fokus utama Anda menggunakan DataNiaga?</p>
+              <p className="text-text-secondary">Apa fokus utama Anda menggunakan Ecometrics?</p>
               
               <div className="space-y-3 pt-4">
                 {[

@@ -1,6 +1,6 @@
 import type { NavItem } from './types';
 
-export const APP_NAME = 'DataNiaga';
+export const APP_NAME = 'Ecometrics';
 export const APP_TAGLINE = 'Jual Lebih Cerdas, Bukan Lebih Keras.';
 
 export const CATEGORIES = ['Fashion', 'Elektronik', 'Rumah Tangga', 'Kecantikan'] as const;

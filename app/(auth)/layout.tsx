@@ -8,7 +8,7 @@ export default function AuthLayout({ children }: { children: React.ReactNode }) 
         <div className="p-8 pb-6 text-center border-b border-dn-border/50">
           <Link href="/" className="inline-flex items-center gap-2 text-primary hover:text-primary-light transition-colors">
             <ChartColumnBig className="w-8 h-8" />
-            <span className="font-display font-bold text-2xl tracking-tight text-text-primary">DataNiaga</span>
+            <span className="font-display font-bold text-2xl tracking-tight text-text-primary">Ecometrics</span>
           </Link>
           <p className="text-sm text-text-muted mt-2">Jual Lebih Cerdas, Bukan Lebih Keras.</p>
         </div>

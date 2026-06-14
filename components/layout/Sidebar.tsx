@@ -114,7 +114,7 @@ export function Sidebar() {
     <aside className={cn('flex h-screen flex-col bg-sidebar-bg transition-all duration-300', collapsed ? 'w-16' : 'w-64')}>
       <div className="flex h-16 items-center gap-2.5 border-b border-slate-700 px-4">
         <BarChart3 className="h-7 w-7 shrink-0 text-accent" />
-        {!collapsed && <span className="font-display text-lg font-bold tracking-tight text-white">DataNiaga</span>}
+        {!collapsed && <span className="font-display text-lg font-bold tracking-tight text-white">Ecometrics</span>}
       </div>
       <nav className="flex-1 overflow-y-auto px-3 py-4">
         <ul className="space-y-1">

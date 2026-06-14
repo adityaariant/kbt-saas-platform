@@ -34,7 +34,7 @@ export default function LoginPage() {
             <input 
               type="email" 
               required
-              defaultValue="admin@dataniaga.id"
+              defaultValue="admin@ecometrics.id"
               className="w-full pl-10 pr-3 py-2.5 text-sm border border-dn-border rounded-lg bg-background text-text-primary focus:outline-none focus:ring-2 focus:ring-primary/30 focus:border-primary transition-colors" 
               placeholder="nama@email.com" 
             />

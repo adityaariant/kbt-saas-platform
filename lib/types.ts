@@ -1,5 +1,5 @@
 // ============================================================
-// DataNiaga — All shared TypeScript interfaces
+// Ecometrics — All shared TypeScript interfaces
 // ============================================================
 
 export type Channel = 'shopee' | 'tokopedia' | 'lazada';
