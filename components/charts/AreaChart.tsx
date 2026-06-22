@@ -63,7 +63,7 @@ export default function AreaChart({
   const uniqueGradientId = gradientId;
 
   return (
-    <ResponsiveContainer width="100%" height={height}>
+    <ResponsiveContainer minWidth={1} minHeight={1} width="100%" height={height}>
       <RechartsAreaChart data={data} margin={{ top: 8, right: 8, left: 0, bottom: 0 }}>
         <defs>
           <linearGradient id={uniqueGradientId} x1="0" y1="0" x2="0" y2="1">

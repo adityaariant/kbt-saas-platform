@@ -54,7 +54,7 @@ export function ProductDetailDrawer({ product, onClose }: ProductDetailDrawerPro
           <div>
             <p className="text-sm font-semibold text-text-secondary mb-3">Tren 7 Hari Terakhir</p>
             <div className="h-40">
-              <ResponsiveContainer width="100%" height="100%">
+              <ResponsiveContainer minWidth={1} minHeight={1} width="100%" height="100%">
                 <AreaChart data={chartData}>
                   <defs>
                     <linearGradient id="productGrad" x1="0" y1="0" x2="0" y2="1">

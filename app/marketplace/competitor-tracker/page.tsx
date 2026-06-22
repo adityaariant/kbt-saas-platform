@@ -56,7 +56,7 @@ export default function CompetitorTrackerPage() {
       <div className="bg-surface rounded-xl border border-dn-border p-5">
         <h3 className="text-base font-bold text-text-primary font-display mb-4">Analisis Gap Harga per Kategori</h3>
         <div className="h-72">
-          <ResponsiveContainer width="100%" height="100%">
+          <ResponsiveContainer minWidth={1} minHeight={1} width="100%" height="100%">
             <BarChart data={priceGapData} margin={{ top: 5, right: 10, bottom: 5, left: 0 }}>
               <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="var(--border)" />
               <XAxis dataKey="category" tick={{ fontSize: 12, fill: 'var(--text-muted)' }} axisLine={false} tickLine={false} />

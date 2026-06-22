@@ -7,7 +7,7 @@ interface ForecastChartProps { data: ForecastPoint[]; height?: number; }
 export function ForecastChart({ data, height = 350 }: ForecastChartProps) {
   return (
     <div style={{ height }}>
-      <ResponsiveContainer width="100%" height="100%">
+      <ResponsiveContainer minWidth={1} minHeight={1} width="100%" height="100%">
         <ComposedChart data={data} margin={{ top: 10, right: 10, bottom: 5, left: 0 }}>
           <defs>
             <linearGradient id="confBand" x1="0" y1="0" x2="0" y2="1">

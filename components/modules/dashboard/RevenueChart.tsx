@@ -78,7 +78,7 @@ export function RevenueChart() {
         </div>
       </div>
       <div className="h-72 w-full">
-        <ResponsiveContainer width="100%" height="100%">
+        <ResponsiveContainer minWidth={1} minHeight={1} width="100%" height="100%">
           <AreaChart data={data} margin={{ top: 5, right: 10, bottom: 5, left: 0 }}>
             <defs>
               {(Object.keys(SERIES_CONFIG) as Series[]).map((s) => (

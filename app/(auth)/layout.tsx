@@ -1,4 +1,4 @@
-import { ChartColumnBig } from 'lucide-react';
+import Image from 'next/image';
 import Link from 'next/link';
 
 export default function AuthLayout({ children }: { children: React.ReactNode }) {
@@ -6,11 +6,25 @@ export default function AuthLayout({ children }: { children: React.ReactNode }) 
     <div className="min-h-screen flex items-center justify-center bg-background p-4">
       <div className="w-full max-w-md bg-surface border border-dn-border rounded-2xl shadow-xl overflow-hidden animate-fade-in">
         <div className="p-8 pb-6 text-center border-b border-dn-border/50">
-          <Link href="/" className="inline-flex items-center gap-2 text-primary hover:text-primary-light transition-colors">
-            <ChartColumnBig className="w-8 h-8" />
-            <span className="font-display font-bold text-2xl tracking-tight text-text-primary">Ecommetrics</span>
+          <Link href="/" className="inline-block hover:opacity-90 transition-opacity">
+            <Image 
+              src="/logo-horizontal-light-v2.png" 
+              alt="Ecommetrics Logo" 
+              width={240} 
+              height={60} 
+              className="dark:hidden mx-auto h-12 w-auto"
+              priority
+            />
+            <Image 
+              src="/logo-horizontal-dark-v2.png" 
+              alt="Ecommetrics Logo" 
+              width={240} 
+              height={60} 
+              className="hidden dark:block mx-auto h-12 w-auto"
+              priority
+            />
           </Link>
-          <p className="text-sm text-text-muted mt-2">Jual Lebih Cerdas, Bukan Lebih Keras.</p>
+          <p className="text-sm text-text-muted mt-4">Jual Lebih Cerdas, Bukan Lebih Keras.</p>
         </div>
         <div className="p-8 pt-6">
           {children}

@@ -21,7 +21,7 @@ export function ElasticityChart({ data, height = 350 }: ElasticityChartProps) {
 
   return (
     <div style={{ height }}>
-      <ResponsiveContainer width="100%" height="100%">
+      <ResponsiveContainer minWidth={1} minHeight={1} width="100%" height="100%">
         <LineChart data={chartData} margin={{ top: 10, right: 10, bottom: 20, left: 10 }}>
           <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="var(--border)" />
           <XAxis 

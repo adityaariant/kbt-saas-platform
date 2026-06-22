@@ -8,12 +8,13 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import {
   LayoutDashboard, Store, BrainCircuit, FileText, Search,
   FileSearch, Users, TrendingUp, PieChart, FlaskConical,
   Grid3x3, DollarSign, Settings, ChevronLeft, ChevronRight,
-  ChevronDown, BarChart3,
+  ChevronDown,
 } from 'lucide-react';
 import type { LucideIcon } from 'lucide-react';
 import { cn } from '@/lib/utils';
@@ -112,9 +113,26 @@ export function Sidebar() {
 
   return (
     <aside className={cn('flex h-screen flex-col bg-sidebar-bg transition-all duration-300', collapsed ? 'w-16' : 'w-64')}>
-      <div className="flex h-16 items-center gap-2.5 border-b border-slate-700 px-4">
-        <BarChart3 className="h-7 w-7 shrink-0 text-accent" />
-        {!collapsed && <span className="font-display text-lg font-bold tracking-tight text-white">Ecommetrics</span>}
+      <div className={cn("flex h-16 items-center border-b border-slate-700", collapsed ? "justify-center px-0" : "px-4")}>
+        {collapsed ? (
+          <Image 
+            src="/logo-stacked-dark-v2.png" 
+            alt="Ecommetrics Logo" 
+            width={48} 
+            height={48} 
+            className="h-10 w-auto"
+            priority
+          />
+        ) : (
+          <Image 
+            src="/logo-horizontal-dark-v2.png" 
+            alt="Ecommetrics Logo" 
+            width={180} 
+            height={48} 
+            className="h-8 w-auto"
+            priority
+          />
+        )}
       </div>
       <nav className="flex-1 overflow-y-auto px-3 py-4">
         <ul className="space-y-1">

@@ -9,7 +9,7 @@ export function DonutChart({ data, height = 280 }: DonutChartProps) {
   return (
     <div className="flex items-center gap-6">
       <div style={{ width: height, height }}>
-        <ResponsiveContainer width="100%" height="100%">
+        <ResponsiveContainer minWidth={1} minHeight={1} width="100%" height="100%">
           <PieChart>
             <Pie data={data} cx="50%" cy="50%" innerRadius={55} outerRadius={90} dataKey="value" stroke="none">
               {data.map((d, i) => <Cell key={i} fill={d.color} />)}
