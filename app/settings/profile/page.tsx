@@ -42,12 +42,12 @@ export default function ProfileSettingsPage() {
           </div>
           <div>
             <label className="text-sm font-semibold text-text-secondary block mb-1.5">Nama Belakang</label>
-            <input defaultValue="Ecometrics" className="w-full px-3 py-2 text-sm border border-dn-border rounded-lg bg-background text-text-primary focus:outline-none focus:ring-2 focus:ring-primary/30" />
+            <input defaultValue="Ecommetrics" className="w-full px-3 py-2 text-sm border border-dn-border rounded-lg bg-background text-text-primary focus:outline-none focus:ring-2 focus:ring-primary/30" />
           </div>
         </div>
         <div>
           <label className="text-sm font-semibold text-text-secondary block mb-1.5">Email</label>
-          <input defaultValue="admin@ecometrics.id" disabled className="w-full px-3 py-2 text-sm border border-dn-border rounded-lg bg-surface-hover text-text-muted cursor-not-allowed" />
+          <input defaultValue="admin@ecommetrics.id" disabled className="w-full px-3 py-2 text-sm border border-dn-border rounded-lg bg-surface-hover text-text-muted cursor-not-allowed" />
           <p className="text-xs text-text-muted mt-1">Email digunakan untuk login dan tidak dapat diubah.</p>
         </div>
         <div className="pt-4">

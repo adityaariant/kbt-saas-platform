@@ -101,7 +101,7 @@ export function ReportBuilder() {
           <div className="flex justify-between items-start border-b border-dn-border pb-6 mb-6">
             <div>
               <h1 className="text-3xl font-display font-bold text-text-primary">Laporan Performa Bisnis</h1>
-              <p className="text-text-secondary mt-1">Ecometrics Official Store</p>
+              <p className="text-text-secondary mt-1">Ecommetrics Official Store</p>
             </div>
             <div className="text-right">
               <p className="text-sm font-semibold text-text-muted uppercase tracking-wider mb-1">Periode</p>

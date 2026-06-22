@@ -21,7 +21,7 @@ function getPageTitle(pathname: string, items: NavItem[]): string {
   }
   if (pathname.startsWith('/settings')) return 'Pengaturan';
   if (pathname.startsWith('/reports')) return 'Laporan';
-  return 'Ecometrics';
+  return 'Ecommetrics';
 }
 
 export function Navbar() {

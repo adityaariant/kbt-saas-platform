@@ -3,7 +3,7 @@ import './globals.css';
 import { LayoutShell } from './layout-shell';
 
 export const metadata: Metadata = {
-  title: 'Ecometrics — Jual Lebih Cerdas, Bukan Lebih Keras',
+  title: 'Ecommetrics — Jual Lebih Cerdas, Bukan Lebih Keras',
   description: 'Platform Business Intelligence untuk UMKM dan seller marketplace Indonesia',
 };
 

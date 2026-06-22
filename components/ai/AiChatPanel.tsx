@@ -33,7 +33,7 @@ export function AiChatPanel({ onClose }: { onClose: () => void }) {
       <div className="flex items-center justify-between px-4 py-3 bg-primary text-white shrink-0">
         <div className="flex items-center gap-2">
           <Sparkles className="h-5 w-5" />
-          <span className="font-display font-semibold">Ecometrics AI</span>
+          <span className="font-display font-semibold">Ecommetrics AI</span>
         </div>
         <button onClick={onClose} className="p-1 rounded-lg hover:bg-white/20 transition-colors"><X className="h-4 w-4" /></button>
       </div>

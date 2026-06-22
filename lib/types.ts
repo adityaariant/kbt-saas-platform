@@ -1,5 +1,5 @@
 // ============================================================
-// Ecometrics — All shared TypeScript interfaces
+// Ecommetrics — All shared TypeScript interfaces
 // ============================================================
 
 export type Channel = 'shopee' | 'tokopedia' | 'lazada';
